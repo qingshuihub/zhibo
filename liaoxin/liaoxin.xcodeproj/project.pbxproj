@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C40903F20A9ABB500BE3759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C40903E20A9ABB500BE3759 /* Main.storyboard */; };
 		8C58508320A8974E00A5BE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58508220A8974E00A5BE73 /* AppDelegate.swift */; };
-		8C58508820A8974E00A5BE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C58508620A8974E00A5BE73 /* Main.storyboard */; };
 		8C58508A20A8974E00A5BE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C58508920A8974E00A5BE73 /* Assets.xcassets */; };
 		8C58508D20A8974E00A5BE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C58508B20A8974E00A5BE73 /* LaunchScreen.storyboard */; };
-		8C58509820A8974E00A5BE73 /* liaoxinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58509720A8974E00A5BE73 /* liaoxinTests.swift */; };
-		8C5850A320A8974E00A5BE73 /* liaoxinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5850A220A8974E00A5BE73 /* liaoxinUITests.swift */; };
+		8CDE3A7F20A9F6B7009BAED5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE3A7E20A9F6B7009BAED5 /* Home.storyboard */; };
+		8CDE3A8120A9F6D8009BAED5 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE3A8020A9F6D8009BAED5 /* Live.storyboard */; };
+		8CDE3A8320A9F6F0009BAED5 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE3A8220A9F6F0009BAED5 /* Follow.storyboard */; };
+		8CDE3A8520A9F70D009BAED5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE3A8420A9F70D009BAED5 /* Profile.storyboard */; };
+		8CF3EE4920AAF2EC0091A836 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3EE4820AAF2EC0091A836 /* MainViewController.swift */; };
+		8CF3EE4B20AAF31E0091A836 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3EE4A20AAF31E0091A836 /* HomeViewController.swift */; };
+		8CF3EED720AB15450091A836 /* TXLiteAVSDK_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EED620AB15450091A836 /* TXLiteAVSDK_Player.framework */; };
+		8CF3EED920AB15530091A836 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EED820AB15530091A836 /* VideoToolbox.framework */; };
+		8CF3EEDB20AB155B0091A836 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEDA20AB155A0091A836 /* SystemConfiguration.framework */; };
+		8CF3EEDD20AB15670091A836 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEDC20AB15670091A836 /* CoreTelephony.framework */; };
+		8CF3EEDF20AB156E0091A836 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEDE20AB156E0091A836 /* AVFoundation.framework */; };
+		8CF3EEE120AB15780091A836 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEE020AB15770091A836 /* CoreMedia.framework */; };
+		8CF3EEE320AB157F0091A836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEE220AB157F0091A836 /* CoreGraphics.framework */; };
+		8CF3EEE520AB158B0091A836 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEE420AB158A0091A836 /* libstdc++.tbd */; };
+		8CF3EEE720AB15910091A836 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEE620AB15910091A836 /* libz.tbd */; };
+		8CF3EEE920AB159B0091A836 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEE820AB159B0091A836 /* libiconv.tbd */; };
+		8CF3EEEB20AB15A40091A836 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3EEEA20AB15A40091A836 /* libresolv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +48,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C40903E20A9ABB500BE3759 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8C58507F20A8974E00A5BE73 /* liaoxin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liaoxin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C58508220A8974E00A5BE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C58508720A8974E00A5BE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C58508920A8974E00A5BE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C58508C20A8974E00A5BE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C58508E20A8974E00A5BE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C58509320A8974E00A5BE73 /* liaoxinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liaoxinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C58509720A8974E00A5BE73 /* liaoxinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liaoxinTests.swift; sourceTree = "<group>"; };
-		8C58509920A8974E00A5BE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C58509E20A8974E00A5BE73 /* liaoxinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liaoxinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C5850A220A8974E00A5BE73 /* liaoxinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liaoxinUITests.swift; sourceTree = "<group>"; };
-		8C5850A420A8974E00A5BE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDE3A7E20A9F6B7009BAED5 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8CDE3A8020A9F6D8009BAED5 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		8CDE3A8220A9F6F0009BAED5 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		8CDE3A8420A9F70D009BAED5 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8CF3EE4820AAF2EC0091A836 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8CF3EE4A20AAF31E0091A836 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CF3EED620AB15450091A836 /* TXLiteAVSDK_Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TXLiteAVSDK_Player.framework; path = liaoxin/SDK/TXLiteAVSDK_Player.framework; sourceTree = "<group>"; };
+		8CF3EED820AB15530091A836 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		8CF3EEDA20AB155A0091A836 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8CF3EEDC20AB15670091A836 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8CF3EEDE20AB156E0091A836 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8CF3EEE020AB15770091A836 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8CF3EEE220AB157F0091A836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CF3EEE420AB158A0091A836 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8CF3EEE620AB15910091A836 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8CF3EEE820AB159B0091A836 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8CF3EEEA20AB15A40091A836 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF3EEEB20AB15A40091A836 /* libresolv.tbd in Frameworks */,
+				8CF3EEE920AB159B0091A836 /* libiconv.tbd in Frameworks */,
+				8CF3EEE720AB15910091A836 /* libz.tbd in Frameworks */,
+				8CF3EEE520AB158B0091A836 /* libstdc++.tbd in Frameworks */,
+				8CF3EEE320AB157F0091A836 /* CoreGraphics.framework in Frameworks */,
+				8CF3EEE120AB15780091A836 /* CoreMedia.framework in Frameworks */,
+				8CF3EEDF20AB156E0091A836 /* AVFoundation.framework in Frameworks */,
+				8CF3EEDD20AB15670091A836 /* CoreTelephony.framework in Frameworks */,
+				8CF3EEDB20AB155B0091A836 /* SystemConfiguration.framework in Frameworks */,
+				8CF3EED920AB15530091A836 /* VideoToolbox.framework in Frameworks */,
+				8CF3EED720AB15450091A836 /* TXLiteAVSDK_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +127,9 @@
 		8C40903820A99B8E00BE3759 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8CF3EE3720AAF2380091A836 /* Controller */,
+				8CF3EE3820AAF2380091A836 /* Model */,
+				8CF3EE3920AAF2380091A836 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -95,6 +137,9 @@
 		8C40903920A99B8E00BE3759 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				8CF3EE4020AAF25A0091A836 /* Controller */,
+				8CF3EE4120AAF25A0091A836 /* Model */,
+				8CF3EE4220AAF25A0091A836 /* View */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -102,6 +147,9 @@
 		8C40903A20A99B8E00BE3759 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8CF3EE4320AAF2600091A836 /* Controller */,
+				8CF3EE4420AAF2600091A836 /* Model */,
+				8CF3EE4520AAF2600091A836 /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -109,6 +157,9 @@
 		8C40903B20A99B8E00BE3759 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				8CF3EE3D20AAF2550091A836 /* Controller */,
+				8CF3EE3E20AAF2550091A836 /* Model */,
+				8CF3EE3F20AAF2550091A836 /* View */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -116,6 +167,9 @@
 		8C40903C20A99B8E00BE3759 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8CF3EE3A20AAF24E0091A836 /* Controller */,
+				8CF3EE3B20AAF24F0091A836 /* Model */,
+				8CF3EE3C20AAF24F0091A836 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -131,9 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				8C58508120A8974E00A5BE73 /* liaoxin */,
-				8C58509620A8974E00A5BE73 /* liaoxinTests */,
-				8C5850A120A8974E00A5BE73 /* liaoxinUITests */,
 				8C58508020A8974E00A5BE73 /* Products */,
+				8CF3EE5120AB14C70091A836 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,7 +205,6 @@
 			children = (
 				8C40903720A99B8E00BE3759 /* Classes */,
 				8C58508220A8974E00A5BE73 /* AppDelegate.swift */,
-				8C58508620A8974E00A5BE73 /* Main.storyboard */,
 				8C58508920A8974E00A5BE73 /* Assets.xcassets */,
 				8C58508B20A8974E00A5BE73 /* LaunchScreen.storyboard */,
 				8C58508E20A8974E00A5BE73 /* Info.plist */,
@@ -160,22 +212,146 @@
 			path = liaoxin;
 			sourceTree = "<group>";
 		};
-		8C58509620A8974E00A5BE73 /* liaoxinTests */ = {
+		8CF3EE3720AAF2380091A836 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8C58509720A8974E00A5BE73 /* liaoxinTests.swift */,
-				8C58509920A8974E00A5BE73 /* Info.plist */,
+				8CDE3A7E20A9F6B7009BAED5 /* Home.storyboard */,
+				8CF3EE4A20AAF31E0091A836 /* HomeViewController.swift */,
 			);
-			path = liaoxinTests;
+			name = Controller;
+			path = liaoxin/Classes/Main/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE3820AAF2380091A836 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = liaoxin/Classes/Main/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE3920AAF2380091A836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = liaoxin/Classes/Main/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE3A20AAF24E0091A836 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C40903E20A9ABB500BE3759 /* Main.storyboard */,
+				8CF3EE4820AAF2EC0091A836 /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		8C5850A120A8974E00A5BE73 /* liaoxinUITests */ = {
+		8CF3EE3B20AAF24F0091A836 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8C5850A220A8974E00A5BE73 /* liaoxinUITests.swift */,
-				8C5850A420A8974E00A5BE73 /* Info.plist */,
 			);
-			path = liaoxinUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CF3EE3C20AAF24F0091A836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8CF3EE3D20AAF2550091A836 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE3A8020A9F6D8009BAED5 /* Live.storyboard */,
+			);
+			name = Controller;
+			path = liaoxin/Classes/Main/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE3E20AAF2550091A836 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = liaoxin/Classes/Main/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE3F20AAF2550091A836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = liaoxin/Classes/Main/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE4020AAF25A0091A836 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE3A8220A9F6F0009BAED5 /* Follow.storyboard */,
+			);
+			name = Controller;
+			path = liaoxin/Classes/Main/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE4120AAF25A0091A836 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = liaoxin/Classes/Main/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE4220AAF25A0091A836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = liaoxin/Classes/Main/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE4320AAF2600091A836 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE3A8420A9F70D009BAED5 /* Profile.storyboard */,
+			);
+			name = Controller;
+			path = liaoxin/Classes/Main/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE4420AAF2600091A836 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = liaoxin/Classes/Main/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE4520AAF2600091A836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = liaoxin/Classes/Main/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF3EE5120AB14C70091A836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF3EEEA20AB15A40091A836 /* libresolv.tbd */,
+				8CF3EEE820AB159B0091A836 /* libiconv.tbd */,
+				8CF3EEE620AB15910091A836 /* libz.tbd */,
+				8CF3EEE420AB158A0091A836 /* libstdc++.tbd */,
+				8CF3EEE220AB157F0091A836 /* CoreGraphics.framework */,
+				8CF3EEE020AB15770091A836 /* CoreMedia.framework */,
+				8CF3EEDE20AB156E0091A836 /* AVFoundation.framework */,
+				8CF3EEDC20AB15670091A836 /* CoreTelephony.framework */,
+				8CF3EEDA20AB155A0091A836 /* SystemConfiguration.framework */,
+				8CF3EED820AB15530091A836 /* VideoToolbox.framework */,
+				8CF3EED620AB15450091A836 /* TXLiteAVSDK_Player.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,9 +461,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDE3A8520A9F70D009BAED5 /* Profile.storyboard in Resources */,
+				8C40903F20A9ABB500BE3759 /* Main.storyboard in Resources */,
 				8C58508D20A8974E00A5BE73 /* LaunchScreen.storyboard in Resources */,
+				8CDE3A8120A9F6D8009BAED5 /* Live.storyboard in Resources */,
+				8CDE3A8320A9F6F0009BAED5 /* Follow.storyboard in Resources */,
 				8C58508A20A8974E00A5BE73 /* Assets.xcassets in Resources */,
-				8C58508820A8974E00A5BE73 /* Main.storyboard in Resources */,
+				8CDE3A7F20A9F6B7009BAED5 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +493,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C58508320A8974E00A5BE73 /* AppDelegate.swift in Sources */,
+				8CF3EE4920AAF2EC0091A836 /* MainViewController.swift in Sources */,
+				8CF3EE4B20AAF31E0091A836 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +502,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C58509820A8974E00A5BE73 /* liaoxinTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +509,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5850A320A8974E00A5BE73 /* liaoxinUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,14 +528,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8C58508620A8974E00A5BE73 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C58508720A8974E00A5BE73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8C58508B20A8974E00A5BE73 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,8 +650,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/liaoxin/SDK",
+					TXLiteAVSDK_Professional/,
+				);
 				INFOPLIST_FILE = liaoxin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -494,8 +670,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/liaoxin/SDK",
+					TXLiteAVSDK_Professional/,
+				);
 				INFOPLIST_FILE = liaoxin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
